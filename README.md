@@ -18,13 +18,13 @@
   1. Reliability
   2. Generalizability
 
-  Goal: 
+ # Goal: 
   1. Learn adversarially robust deep neural networks for sentiment analysis.
   2. Generate adversarial samples to attack the model.
   3. Use generated adversarial samples with natural samples to train the model for adversarial robustness.
   4. Use the learned model to correctly predict both natural and adversarial samples. 
 
-  Conclusion:
+# Conclusion:
   1. This project successfully builds an adversarially robust sentiment analysis model by training the model with both natural and generated adversarial samples.
   2. The experimental results show that both adversarial training approaches, data augmentation and model generalization improve the adversarial accuracy of the models,
      but model regularization results in more generalized and adversarially robust model. 
