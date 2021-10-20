@@ -37,6 +37,8 @@ This is a Text classification (Sentiment Analysis) problem with the goal to prod
 2. Adversarial samples to attack the model are generated using DeepWordBug[2] : a Black-box attack<br />
    * Scoring<br /> 
    * Transformation-Swap; Delete; Insert<br />
+   ![image](https://user-images.githubusercontent.com/24207916/138029089-e9e514a7-0263-4477-aaaa-63bc4b018391.png)
+
 3. Adversarial Training is used as the Defense method<br />
    The two adversarial training approcahes considered are-<br />
     * Data Augmentation
