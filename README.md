@@ -43,6 +43,8 @@ This is a Text classification (Sentiment Analysis) problem with the goal to prod
     * Model Regularization
 4. Generated adversarial samples with natural samples are used to train the model for adversarial robustness to correctly predict both natural and adversarial samples. 
 
+[2] J. Gao, J. Lanchantin, M. L. Soffa and Y. Qi, "Black-Box Generation of Adversarial Text Sequences to Evade Deep Learning Classifiers," 2018 IEEE Security and Privacy Workshops (SPW), San Francisco, CA, 2018, pp. 50-56.
+
 ## Evaluation Metric (KPI)
 Accuracy
 
