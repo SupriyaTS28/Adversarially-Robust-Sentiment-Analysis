@@ -42,7 +42,7 @@ This is a Text classification (Sentiment Analysis) problem with the goal to prod
 Accuracy
 
 ## Result
-![alt text](https://github.com/supriyatskumar/Adversarially-Robust-Sentiment-Analysis/blob/main/results_table.jpg?raw=true)
+![results_table](https://user-images.githubusercontent.com/24207916/138027766-1d1fb39d-d9ef-4903-b816-f6d739264ade.JPG)
 1. This project successfully builds an adversarially robust sentiment analysis model with an accuracy of 84.7% on generated adversarial samples and 88.39% on clean samples.
 2. The experimental results show that model generalization approach results in better generalized and adversarially robust model compared to data augmentation approach. 
 3. Possible extensions for this work-<br />
