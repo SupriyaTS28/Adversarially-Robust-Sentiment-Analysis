@@ -1,18 +1,10 @@
 # Adversarially-Robust-Sentiment-Analysis
 
 ## Problem Statement
-Sentiment Analysis: scoring or classifying a piece of text based on the emotions of the text.
+Deep Neural Networks(DNN) have been successfully used to solve many computer vision, Speech and Natural Language Processing tasks. However, adversarial samples (strategically modified samples) can trick the DNNs to give wrong predictions and thus degrading their performance.<br />
+The growing demand for reliabile and generalizable models makes it necessary to build an adversarially robust model.
 
-  Applications: 
-  
-  
-  Adversarial Robustness: Are deep neural networks robust to adversarial samples?
-  
-  Adversarial sample: Strategically modified input sample that fools the model to give wrong predictions.
-
-  Importance of adversarial robustness:
-  1. Reliability
-  2. Generalizability
+This project implements a defense strategy- Adversarial Training, to build a robust Sentiment Analysis model to classify both natural and adversarial samples correctly.
 
 ### Use Case
 1. Product Recommendation
