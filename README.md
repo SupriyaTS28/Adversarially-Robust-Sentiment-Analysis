@@ -37,6 +37,6 @@ Accuracy
 1. This project successfully builds an adversarially robust sentiment analysis model by training the model with both natural and generated adversarial samples.
 2. The experimental results show that both adversarial training approaches- data augmentation and model generalization improve the adversarial accuracy of the models,
      but model regularization results in more generalized and adversarially robust model. 
-3. Possible extensions for this work-
-       * Implement stronger attack methods and see if Adversarial Training will generalize for all types of attacks.
-       * Extend this approach to other NLP tasks.
+3. Possible extensions for this work-<br />
+       * Implement stronger attack methods and see if Adversarial Training will generalize for all types of attacks.<br />
+       * Extend this approach to other NLP tasks.<br />
