@@ -22,7 +22,7 @@ Sentiment Analysis: scoring or classifying a piece of text based on the emotions
 
 ## Dataset
 Curated a balanced dataset consisting of 50K COVID-19 related tweets, with two classes: positive and negative.<br />
-utilized tweet id's from “COVID-19: The First Public Coronavirus Twitter Dataset”[1] to create the dataset.<br />
+Utilized tweet id's from “COVID-19: The First Public Coronavirus Twitter Dataset”[1] to create the dataset.<br />
 Training Set =  25000 samples<br />
 Validation Set = 7500 samples<br />
 Test Set = 17500 samples<br />
@@ -33,10 +33,15 @@ Test Set = 17500 samples<br />
 This is a Text classification (Sentiment Analysis) problem with the goal to produce a reliable model that is immune to adversarial attacks.
 
 ## Approach
-1. In this project a Bi directional LSTM (Bi-LSTM) is used to develop an adversarially robust model for sentiment analysis.
-2. Generate adversarial samples to attack the model.
-3. Use generated adversarial samples with natural samples to train the model for adversarial robustness.
-4. Use the learned model to correctly predict both natural and adversarial samples. 
+1. In this project a Bi directional LSTM (Bi-LSTM) is trained to develop an adversarially robust model for sentiment analysis.
+2. Adversarial samples to attack the model are generated using DeepWordBug[2] : a Black-box attack<br />
+   * Scoring<br /> 
+   * Transformation-Swap; Delete; Insert<br />
+3. Adversarial Training is used as the Defense method<br />
+   The two adversarial training approcahes considered are-<br />
+    * Data Augmentation
+    * Model Regularization
+4. Generated adversarial samples with natural samples are used to train the model for adversarial robustness to correctly predict both natural and adversarial samples. 
 
 ## Evaluation Metric (KPI)
 Accuracy
