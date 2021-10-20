@@ -21,11 +21,11 @@ Sentiment Analysis: scoring or classifying a piece of text based on the emotions
 4. Customer service
 
 ## Dataset
-Curated a balanced dataset consisting of 50K COVID-19 related tweets, with two classes: positive and negative. 
-utilized tweet id's from “COVID-19: The First Public Coronavirus Twitter Dataset”[1] to create the dataset.
-Training Set =  25000 samples
-Validation Set = 7500 samples
-Test Set = 17500 samples
+Curated a balanced dataset consisting of 50K COVID-19 related tweets, with two classes: positive and negative.<br />
+utilized tweet id's from “COVID-19: The First Public Coronavirus Twitter Dataset”[1] to create the dataset.<br />
+Training Set =  25000 samples<br />
+Validation Set = 7500 samples<br />
+Test Set = 17500 samples<br />
 
 [1] Emily Chen, Kristina Lerman, Emilio Ferrara, “COVID-19: The First Public Coronavirus Twitter Dataset”,arXiv:2003.07372 [cs.SI]. 
 
